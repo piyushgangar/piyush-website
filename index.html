@@ -95,7 +95,7 @@
   ]
 }
 </script>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2032%2032%27%3E%3Crect%20width%3D%2732%27%20height%3D%2732%27%20rx%3D%275%27%20fill%3D%27%23b8923a%27%2F%3E%3Cg%20transform%3D%27translate%284%2C4%29%27%20fill%3D%27none%27%20stroke%3D%27%23ffffff%27%20stroke-width%3D%271.7%27%20stroke-linejoin%3D%27round%27%20stroke-linecap%3D%27round%27%3E%3Cpath%20d%3D%27M12%202L3%207l9%205%209-5-9-5zM3%2017l9%205%209-5M3%2012l9%205%209-5%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+<link rel="icon" type="image/svg+xml" href="logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -171,12 +171,9 @@
     text-decoration: none;
   }
   .nav-brand-mark {
-    width: 34px; height: 34px;
-    background: var(--gold);
-    display: flex; align-items: center; justify-content: center;
-    flex-shrink: 0;
+    height: 44px; width: auto;
+    display: block; flex-shrink: 0;
   }
-  .nav-brand-mark svg { width: 17px; height: 17px; fill: white; }
   .nav-brand-name {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.25rem; font-weight: 600;
@@ -1022,11 +1019,9 @@
     margin-bottom: 20px; text-decoration: none;
   }
   .footer-logo-icon {
-    width: 38px; height: 38px; background: var(--gold);
-    display: flex; align-items: center; justify-content: center;
-    flex-shrink: 0;
+    height: 48px; width: auto;
+    display: block; flex-shrink: 0;
   }
-  .footer-logo-icon svg { width: 19px; height: 19px; fill: white; }
   .footer-logo-name {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.4rem; font-weight: 600; color: white;
@@ -1201,9 +1196,7 @@
 <!-- NAV -->
 <nav id="top">
   <a href="#top" class="nav-brand" aria-label="Piyush Gangar — home" onclick="window.scrollTo({top:0,behavior:'smooth'})">
-    <div class="nav-brand-mark">
-      <svg viewBox="0 0 24 24"><path d="M12 2L3 7l9 5 9-5-9-5zM3 17l9 5 9-5M3 12l9 5 9-5"/></svg>
-    </div>
+    <img src="logo.svg" class="nav-brand-mark" alt="Piyush Gangar — Labour Law Consultant logo">
   </a>
   <div class="nav-links">
     <a href="#practice">Practice Areas</a>
@@ -1536,9 +1529,7 @@
   <div class="footer-top">
     <div class="footer-brand">
       <a href="#top" class="footer-logo">
-        <div class="footer-logo-icon">
-          <svg viewBox="0 0 24 24"><path d="M12 2L3 7l9 5 9-5-9-5zM3 17l9 5 9-5M3 12l9 5 9-5"/></svg>
-        </div>
+        <img src="logo.svg" class="footer-logo-icon" alt="Piyush Gangar — Labour Law Consultant logo">
         <div class="footer-logo-name">Piyush Gangar<small>Labour Law Consultant</small></div>
       </a>
       <p>A specialist labour and employment law practice serving individuals and organisations across India — with expertise, empathy, and integrity.</p>
